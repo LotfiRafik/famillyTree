@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View member card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <a href="/tree">Arbre</a>
+
+    <div>
+        <h3>Informations etat civil</h3>
+        <form>
+            <div class="row">
+                <label for="firstName">Prenom(s)</label>
+                <input type="text" name="firstName" id="firstName" value="Lyazid">
+            </div>
+
+            <div class="row">
+                <label for="father">Pere</label>
+                <span id="father"><a href="/member/">Mokrane</a></span>
+            </div>
+         
+            <div class="row">
+                <button>Enregister</button>
+                <button>Annuler</button>
+            </div>
+        </form>
+
+        <div class="row mt-4">
+            <div class="col">
+                <h3>Fils</h3>
+            </div>
+            <div class="col">
+                <button>Ajouter un enfant</button>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <th>
+                    <td>Matricule</td>
+                    <td>Prenom</td>
+                    <td>Actions</td>
+                </th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>2</td>
+                    <td>Lotfi Rafik</td>
+                    <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Lotfi Rafik</td>
+                    <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
